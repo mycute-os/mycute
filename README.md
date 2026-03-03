@@ -1,5 +1,7 @@
 # MYCUTE OS
 
+![](./assets/mycute-rounded-256.png)
+
 # ⚫︎ For Mac
 
 ## インストール
