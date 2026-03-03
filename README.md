@@ -10,7 +10,13 @@
 3. ガイドに従ってインストール
 
 ## 設定
-0. 一度起動して閉じる
+0. 一度起動して各種許可
+
+![](./assets/mac-01.png)
+
+![](./assets/mac-02.png)
+
+![](./assets/mac-mic.png)
 
 1. `~/.mycute/settings.json` を開く
 
