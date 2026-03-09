@@ -47,6 +47,10 @@
 ## 設定
 0. 一度起動して閉じる
 
+![](./assets/win-alert-01.png)
+
+![](./assets/win-alert-02.png)
+
 1. Wiindows 11 にて 「設定」→「時刻と言語」→「言語と地域」
 
 ![](./assets/01.png)
