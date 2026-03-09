@@ -1,6 +1,6 @@
 # MYCUTE OS
 
-![](./assets/mycute-rounded-256.png)
+![](./assets/mycute-wrapped-256.png)
 
 # ⚫︎ For Mac
 
