@@ -65,11 +65,17 @@
 
 ![](./assets/04.png)
 
-4. 「C:\Users\<ユーザー名>\.mycute」の中の `settings.json` を開く
+4. 音声認識許可をする
+
+![](./assets/win-allow-asr-1.png)
+
+![](./assets/win-allow-asr-2.png)
+
+5. 「C:\Users\<ユーザー名>\.mycute」の中の `settings.json` を開く
 
 ![](./assets/05.png)
 
-5. `settings.json` の `llms` に、OpenAIのAPIキーを設定する
+6. `settings.json` の `llms` に、OpenAIのAPIキーを設定する
 
 ```json
 {
