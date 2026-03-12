@@ -71,7 +71,7 @@
 
 ![](./assets/win-allow-asr-2.png)
 
-5. 「C:\Users\<ユーザー名>\.mycute」の中の `settings.json` を開く
+5. 「C:\Users\\<ユーザー名>\\.mycute」の中の `settings.json` を開く
 
 ![](./assets/05.png)
 
