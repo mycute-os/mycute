@@ -20,11 +20,11 @@
 
 1. `Settings` アプリを開く
 
-![](./assets/llms01.png)
+<img src="./assets/llms01.png" width="300" />
 
 2. 言語モデルエンドポイントを設定する
 
-![](./assets/llms02.png)
+<img src="./assets/llms02.png" width="300" />
 
 | 項目 | 説明 |
 |---|---|
@@ -71,11 +71,11 @@
 
 5. `Settings` アプリを開く
 
-![](./assets/llms01.png)
+<img src="./assets/llms01.png" width="300" />
 
 6. 言語モデルエンドポイントを設定する
 
-![](./assets/llms02.png)
+<img src="./assets/llms02.png" width="300" />
 
 | 項目 | 説明 |
 |---|---|
