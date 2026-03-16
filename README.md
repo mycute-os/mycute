@@ -18,22 +18,20 @@
 
 ![](./assets/mac-mic.png)
 
-1. `~/.mycute/settings.json` を開く
+1. `Settings` アプリを開く
 
-2. `settings.json` の `llms` に、OpenAIのAPIキーを設定する
+![](./assets/llms01.png)
 
-```json
-{
-  "llms": [
-    {
-      "name": "dummy",
-      "base_url": "https://api.openai.com/v1",
-      "api_key": "<ここにあなたのOpenAIのAPIキーを入力>",
-      "model": "gpt‑4.1‑nano"
-    }
-  ],
-}
-```
+2. 言語モデルエンドポイントを設定する
+
+![](./assets/llms02.png)
+
+| 項目 | 説明 |
+|---|---|
+| 表示名 | 任意の識別名（ `dummy` という文字を含まないよう設定） |
+| ベースURL | 言語モデルベースエンドポイントURL（特段の理由がない限り `https://api.openai.com/v1` から変える必要はない） |
+| APIキー | APIキー（設定必須） |
+| モデル名 | モデル名（特段の理由がない限り `gpt‑4.1‑nano` から変える必要はない） |
 
 3. MYCUTEを再起動
 
@@ -71,23 +69,19 @@
 
 ![](./assets/win-allow-asr-2.png)
 
-5. 「C:\Users\\<ユーザー名>\\.mycute」の中の `settings.json` を開く
+5. `Settings` アプリを開く
 
-![](./assets/05.png)
+![](./assets/llms01.png)
 
-6. `settings.json` の `llms` に、OpenAIのAPIキーを設定する
+6. 言語モデルエンドポイントを設定する
 
-```json
-{
-  "llms": [
-    {
-      "name": "dummy",
-      "base_url": "https://api.openai.com/v1",
-      "api_key": "<ここにあなたのOpenAIのAPIキーを入力>",
-      "model": "gpt‑4.1‑nano"
-    }
-  ],
-}
-```
+![](./assets/llms02.png)
+
+| 項目 | 説明 |
+|---|---|
+| 表示名 | 任意の識別名（ `dummy` という文字を含まないよう設定） |
+| ベースURL | 言語モデルベースエンドポイントURL（特段の理由がない限り `https://api.openai.com/v1` から変える必要はない） |
+| APIキー | APIキー（設定必須） |
+| モデル名 | モデル名（特段の理由がない限り `gpt‑4.1‑nano` から変える必要はない） |
 
 6. MYCUTEを再起動
