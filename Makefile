@@ -1,8 +1,8 @@
 .PHONY: push
 
 push:
-	$(eval VERSION := $(shell grep '^version = ' ../mycute/Cargo.toml | sed 's/version = "\(.*\)"/\1/'))
-	@if [ -z "$(VERSION)" ]; then echo "Version not found in Cargo.toml"; exit 1; fi
+	$(eval VERSION := $(shell grep 'MYCUTE_VERSION' ../mycute/src/constants.rs | grep -oE '[0-9]+\.[0-9]+\.[0-9]+'))
+	@if [ -z "$(VERSION)" ]; then echo "Version not found in src/constants.rs"; exit 1; fi
 	@echo "Commit and push with version v$(VERSION)..."
 	git add .
 	git commit -m "v$(VERSION)" || true
